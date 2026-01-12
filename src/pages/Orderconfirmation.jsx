@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate hook
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './OrderConfirmation.css';
+import './Orderconfirmation.css';
 
 import contactbanner from "../assets/contactimages/contactbanner.png"; // Adjust the path as needed
 
