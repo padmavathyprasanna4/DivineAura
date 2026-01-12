@@ -1,0 +1,212 @@
+/* Blog.css */
+
+/* Basic container for the blog page */
+.blog-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4e8d9;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+  font-size: 1rem;
+  color: #282727;
+  margin-bottom: 20px;
+}
+
+/* Blog content section */
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 21px;
+}
+
+/* Image styling */
+.blog-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+/* Blog date and title styling */
+.blog-details {
+  margin-top: 20px;
+}
+
+.blog-date {
+  font-size: 21px;
+  color: #3c3b3b;
+  margin-bottom: 10px;
+}
+
+.blog-text {
+  font-size: 21px;
+  color: #333;
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.6rem;
+  color: #1b1b1b;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: left; /* Ensure the h3 heading aligns to the left */
+  padding-left: 0; /* Remove any default padding */
+  width: 100%; /* Ensure full width for alignment */
+}
+
+p {
+  font-size: 18px;
+  color: #1c1c1c;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Blog.css */
+
+/* Basic container for the blog page */
+.blog-container {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Breadcrumb navigation */
+.breadcrumb {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Blog title and date */
+.blog-details {
+  text-align: center;
+}
+
+.blog-date {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.blog-title {
+  font-size: 2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Blog content section */
+.blog-right-content {
+  margin-top: 40px;
+}
+
+/* Image styling */
+.blog-image {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Styling for headings */
+h2, h3 {
+  font-size: 1.6rem;
+  color: #444;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Styling for paragraphs */
+
+
+/* Signature and author styling */
+.signature {
+  font-size: 1rem;
+  color: #333;
+  font-style: italic;
+}
+
+.author {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-title {
+    font-size: 1.8rem;
+  }
+
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-title {
+    font-size: 1.6rem;
+  }
+
+  h2, h3 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Footer Navigation & Social Share Section */
+.footer-navigation {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.previous-post{
+    font-size: 1rem;
+    margin-right: 20px;}
+
+.next-post {
+  font-size: 1rem;
+  margin-left: 70px;
+}
+
+.share-on {
+  display: flex;
+  align-items: center;
+}
+
+.share-on .social-icons {
+  margin-left: 10px;
+}
+
+/* Social media icon styling */
+.social-icons a {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #555;  /* Default color for icons */
+  transition: color 0.3s ease;
+}
+
+.social-icons .twitter {
+  color: #1DA1F2; /* Twitter blue */
+}
+
+.social-icons .facebook {
+  color: #3b5998; /* Facebook blue */
+}
+
+.social-icons .linkedin {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Color when hovering (same blue for all) */
+}

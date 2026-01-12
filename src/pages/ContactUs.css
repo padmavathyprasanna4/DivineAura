@@ -1,0 +1,135 @@
+/* Contact Us Container */
+.contact-us-container {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+/* Banner Section */
+.banner-contact {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner-text {
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Contact Form and Contact Details Layout */
+.contact-form-and-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Left Side: Contact Form */
+.contact-form-container {
+  width: 60%; /* Adjust width of form container */
+  margin-left: 60px
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #edeacf;
+}
+
+.contact-form .form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.contact-form .form-row input {
+  width: 48%;
+  background-color: #edeacf;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-details {
+  width: 35%; /* Adjust width of the contact details */
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.contact-details p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.whatsapp-btn {
+  padding: 10px 20px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Error Message Styles */
+.input-error {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+/* Image and Quote Layout */
+.image-quote-container {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image Section */
+.image-container {
+  margin-bottom: 20px;
+}
+
+/* Quote Styling */
+.quote-container {
+  background-color: #edeacf;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #555;
+  text-align: center;
+
+}

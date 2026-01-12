@@ -1,0 +1,83 @@
+.footer {
+  background-color: #fcd4b8;  /* Light beige background for the entire footer */
+  color: #333;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  /* 4 columns of equal width */
+  gap: 20px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;  /* Ensure no background color for each column */
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  width: 50px;  /* Adjust logo size */
+  vertical-align: middle;
+}
+
+.logo-container {
+  margin-bottom: 20px;
+}
+
+.footer-links a, .legal-links a {
+  display: block;
+  margin: 8px 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links a:hover, .legal-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-download p, .footer-payments p {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.footer-icons img, .payment-icons img, .social-icon img {
+  width: 30px;  /* Set icon width */
+  height: 30px; /* Set icon height */
+  margin: 5px;
+  object-fit: contain;  /* Ensure icon scaling without distortion */
+}
+
+.contact-phone p {
+  margin: 8px 0;
+  font-size: 15px;  /* Adjust font size */
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.footer-bottom {
+  text-align: center;  /* Center the content */
+  margin-top: 40px;
+  font-size: 14px;
+  width: 100%;  
+}
+
+.footer-bottom p {
+  color: #777;
+  margin: 0; 
+  text-align: center; 
+}
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;  /* Stack columns vertically */
+  }
+}

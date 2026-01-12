@@ -1,0 +1,108 @@
+/* Order Confirmation Container */
+.order-confirmation-container {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.banner-contact {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+/* Order Confirmation Content */
+.order-confirmation-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Order Confirmed */
+.order-confirmed {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.confirmation-icon {
+  font-size: 60px;
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+.order-confirmed h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.order-confirmed p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Order Summary Section */
+.order-summary {
+  margin-bottom: 30px;
+}
+
+.order-item p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.shipping-info h4,
+.next-steps h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.shipping-info p,
+.next-steps ul {
+  font-size: 1rem;
+  color: #555;
+}
+
+.next-steps ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.next-steps li {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.order-actions button {
+  width: 48%;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn-continue {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+}
+
+.btn-continue:hover {
+  background-color: #c0392b;
+}
+
+.btn-view-order {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.btn-view-order:hover {
+  background-color: #e1e1e1;
+}

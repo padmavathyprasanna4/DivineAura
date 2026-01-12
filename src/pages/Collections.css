@@ -1,0 +1,271 @@
+
+/* Collections.css */
+
+/* Apply the Graduate font */
+body {
+  font-family: 'Graduate', sans-serif;
+  color: #333;
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+/* Collections.css */
+
+/* Basic Styles */
+.collections-container {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+
+/* General container settings */
+.collections-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+
+/* Card Styles */
+.card {
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 220px; /* Reduced card width */
+  margin: 0 auto; /* Center the card */
+}
+
+.card-img {
+  width: 100%;
+  height: 200px; /* Reduced image height */
+  object-fit: cover; /* Ensures image covers the area without stretching */
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 10px; /* Reduced padding */
+  text-align: center;
+}
+
+/* Card title and price styling */
+.card-title {
+  font-size: 1rem; /* Reduced font size */
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 1rem; /* Reduced font size */
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.discount {
+  background-color: #e74c3c;
+  color: white;
+  padding: 5px 8px; /* Reduced padding */
+  font-size: 0.8rem; /* Smaller font size */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: white;
+  border: none;/* Smaller button size */
+  font-size: 0.9rem; /* Smaller font size */
+  border-radius: 5px;
+  margin-top: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Button to view more collections */
+.btn-view {
+  font-size: 1rem;
+  color: #f1f3f5;
+  text-decoration: none;
+  margin-top: 20px;
+  background-color: #1f1e1e;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Grid Layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+/* Heart Icon styling */
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #e74c3c; /* Red color for the filled heart */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.heart-icon:hover {
+  color: #c0392b; /* Darker red on hover */
+}
+/* Responsive breakpoints */
+.col-md-3,
+.col-sm-6 {
+  flex: 1 0 21%;
+  max-width: 23%;
+}
+
+/* General container settings */
+.subscription-container {
+  background-color: #f8f4f1;
+  padding: 50px 30px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.subscription-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.subscription-content h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e74c3c; /* Divine Aura color */
+  font-weight: bold;
+}
+
+.subscription-content p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Input and button styles */
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-control {
+  border-radius: 20px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  max-width: 300px;
+  border: 1px solid #ddd;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #e74c3c;
+}
+
+.btn-subscribe {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-subscribe:hover {
+  background-color: #c0392b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .subscription-container {
+    padding: 30px 20px;
+  }
+
+  .subscription-content h3 {
+    font-size: 1.5rem;
+  }
+
+  .form-control {
+    max-width: 250px;
+  }
+
+  .btn-subscribe {
+    font-size: 0.9rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-3 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-md-3 {
+    max-width: 48%;
+  }
+}
+
+/* Small screen adjustments */
+@media (max-width: 600px) {
+  .card-body {
+    padding: 8px;
+  }
+
+  .card-price {
+    font-size: 0.9rem;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .discount {
+    top: 5px;
+    left: 5px;
+    font-size: 0.7rem;
+  }
+}
+
+
+
